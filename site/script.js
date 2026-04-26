@@ -244,11 +244,14 @@ const translations = {
 const header = document.querySelector(".site-header");
 const revealItems = document.querySelectorAll(".reveal");
 const scene = document.querySelector(".hero-scene");
+const languageSwitcher = document.querySelector(".language-switcher");
 const languageButtons = document.querySelectorAll("[data-lang]");
 const textTargets = document.querySelectorAll("[data-i18n]");
 const ariaTargets = document.querySelectorAll("[data-i18n-aria]");
 const altTargets = document.querySelectorAll("[data-i18n-alt]");
 const contentTargets = document.querySelectorAll("[data-i18n-content]");
+let currentLanguage = "tr";
+let languageAnimationTimer = 0;
 
 const getSavedLanguage = () => {
   try {
@@ -307,11 +310,42 @@ const setLanguage = (language) => {
     button.setAttribute("aria-pressed", String(isActive));
   });
 
+  currentLanguage = activeLanguage;
   saveLanguage(activeLanguage);
 };
 
+const animateLanguageChange = (language) => {
+  const nextLanguage = translations[language] ? language : "tr";
+
+  if (nextLanguage === currentLanguage) {
+    return;
+  }
+
+  window.clearTimeout(languageAnimationTimer);
+  document.body.classList.remove("is-language-entering");
+  document.body.classList.add("is-language-exiting");
+  languageSwitcher?.classList.add("is-switching");
+  languageButtons.forEach((button) => {
+    button.disabled = true;
+  });
+
+  languageAnimationTimer = window.setTimeout(() => {
+    setLanguage(nextLanguage);
+    document.body.classList.remove("is-language-exiting");
+    document.body.classList.add("is-language-entering");
+
+    languageAnimationTimer = window.setTimeout(() => {
+      document.body.classList.remove("is-language-entering");
+      languageSwitcher?.classList.remove("is-switching");
+      languageButtons.forEach((button) => {
+        button.disabled = false;
+      });
+    }, 340);
+  }, 170);
+};
+
 languageButtons.forEach((button) => {
-  button.addEventListener("click", () => setLanguage(button.dataset.lang));
+  button.addEventListener("click", () => animateLanguageChange(button.dataset.lang));
 });
 
 setLanguage(getSavedLanguage() || "tr");
