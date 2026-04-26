@@ -7,9 +7,9 @@
     </linearGradient>
   </defs>
   <rect width="128" height="128" rx="28" fill="#11131a"/>
-  <path fill="url(#mark)" stroke="#4f4599" stroke-linejoin="round" stroke-width="4" d="M47 40 58 18l11 23Z"/>
-  <path fill="url(#mark)" stroke="#4f4599" stroke-linejoin="round" stroke-width="4" d="M68 41 79 18l11 22Z"/>
-  <path fill="#eadfff" opacity=".9" d="M53 37 58 28l6 10Z"/>
-  <path fill="#eadfff" opacity=".9" d="M74 38 79 28l6 10Z"/>
+  <path fill="url(#mark)" stroke="#4f4599" stroke-linejoin="round" stroke-width="4" d="M46 40 57 18l11 22Z"/>
+  <path fill="url(#mark)" stroke="#4f4599" stroke-linejoin="round" stroke-width="4" d="M63 40 74 18l11 22Z"/>
+  <path fill="#eadfff" opacity=".9" d="M52 37 57 28l6 10Z"/>
+  <path fill="#eadfff" opacity=".9" d="M69 37 74 28l6 10Z"/>
   <path fill="url(#mark)" transform="translate(0 6.5) scale(1 .83)" d="M29 72c0-23 15-39 36-39 15 0 27 8 32 20l-17 8c-3-6-8-10-15-10-10 0-17 8-17 21s7 21 17 21c7 0 13-4 16-11l17 8c-6 13-18 21-34 21-21 0-35-16-35-39Z"/>
 </svg>
