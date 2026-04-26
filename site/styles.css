@@ -664,7 +664,7 @@ p {
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 16px;
 }
 
@@ -700,6 +700,7 @@ p {
   border-radius: 8px;
   color: var(--teal-dark);
   font-weight: 800;
+  overflow-wrap: anywhere;
   text-decoration: none;
 }
 

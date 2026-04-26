@@ -21,7 +21,7 @@ const translations = {
     heroPetDetail: "Odakla iyileşiyor",
     heroEyebrow: "Oyunlaştırılmış çok oyunculu odak",
     heroTitle:
-      "Reels sonrası dağılan odağı, yaşayan bir pet ve ekip ritmiyle geri kazan.",
+      "Kısa videolar sonrası dağılan odağı, yaşayan bir pet ve ekip ritmiyle geri kazan.",
     heroLead:
       "Catudy, klasik timer deneyimini pet bakımı, ödül döngüsü, senkron çalışma odaları ve kişisel odak verileriyle daha bağlı kalınabilir bir üretkenlik oyununa dönüştürür.",
     heroPrimaryCta: "Catudy'yi keşfet",
@@ -135,7 +135,7 @@ const translations = {
     heroPetDetail: "Improves with focus",
     heroEyebrow: "Gamified multiplayer focus",
     heroTitle:
-      "Rebuild the focus lost after endless scrolling with a living pet and a shared team rhythm.",
+      "Rebuild the focus lost after short videos with a living pet and a shared team rhythm.",
     heroLead:
       "Catudy turns the classic timer experience into a productivity game that is easier to stick with through pet care, rewards, synchronized study rooms, and personal focus data.",
     heroPrimaryCta: "Explore Catudy",
