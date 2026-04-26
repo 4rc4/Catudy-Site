@@ -94,11 +94,6 @@ const translations = {
     screensTitle: "Catudy içeriği",
     screensBody:
       "Bu bölüm Catudy'deki ana içerik alanlarının ne işe yaradığını gösterir: odak başlatma, pet takibi, birlikte çalışma, istatistik ve takvim akışları.",
-    posterKicker: "Tanıtım Afişi",
-    posterShowcaseTitle: "Catudy'nin pastel afiş dili siteye taşındı.",
-    posterShowcaseBody:
-      "Maskot, lavanta tonları, yumuşak kart çizgileri ve kısa video döngüsünden çıkma mesajı Catudy'nin tanıtım yüzünü oluşturur.",
-    posterAlt: "Catudy tanıtım afişi",
     screenHomeAlt: "Catudy ana ekran mockup alanı",
     screenHomeTitle: "Ana ekran",
     screenHomeBody:
@@ -218,11 +213,6 @@ const translations = {
     screensTitle: "Catudy content",
     screensBody:
       "This section shows what the main Catudy areas do: starting focus sessions, tracking the pet, studying together, viewing statistics, and managing the calendar flow.",
-    posterKicker: "Promo Poster",
-    posterShowcaseTitle: "Catudy's soft poster language now shapes the site.",
-    posterShowcaseBody:
-      "The mascot, lavender palette, soft card outlines, and the message of escaping the short-video loop define Catudy's promotional look.",
-    posterAlt: "Catudy promotional poster",
     screenHomeAlt: "Catudy home screen mockup area",
     screenHomeTitle: "Home screen",
     screenHomeBody:

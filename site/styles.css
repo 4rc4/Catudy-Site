@@ -794,44 +794,6 @@ p {
   color: rgb(255 255 255 / 65%);
 }
 
-.poster-showcase {
-  display: grid;
-  grid-template-columns: minmax(0, 0.76fr) minmax(280px, 0.44fr);
-  gap: 28px;
-  align-items: center;
-  margin-bottom: 26px;
-  padding: 22px;
-  border: 1px solid rgb(255 255 255 / 22%);
-  border-radius: 8px;
-  background: rgb(255 250 247 / 12%);
-  box-shadow: 0 18px 48px rgb(17 19 26 / 18%);
-}
-
-.poster-copy {
-  max-width: 660px;
-}
-
-.poster-copy h3 {
-  margin-top: 10px;
-  color: #fff;
-  font-size: clamp(1.8rem, 4vw, 3.2rem);
-  line-height: 1.04;
-}
-
-.poster-copy p:last-child {
-  margin: 14px 0 0;
-  color: rgb(255 255 255 / 70%);
-  font-size: 1.04rem;
-}
-
-.poster-showcase img {
-  width: min(100%, 360px);
-  justify-self: end;
-  border: 3px solid rgb(255 255 255 / 32%);
-  border-radius: 18px;
-  box-shadow: 0 24px 60px rgb(17 19 26 / 22%);
-}
-
 .screen-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1082,13 +1044,8 @@ p {
   .focus-loop,
   .feature-grid,
   .screen-grid,
-  .poster-showcase,
   .team-grid {
     grid-template-columns: 1fr;
-  }
-
-  .poster-showcase img {
-    justify-self: start;
   }
 
   .section-copy {
