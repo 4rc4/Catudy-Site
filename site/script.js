@@ -117,6 +117,7 @@ const translations = {
     teamTitle: "Catudy proje ekibi",
     teamRole: "Proje ekibi",
     footerTagline: "Oyunlaştırılmış çok oyunculu odak ve üretkenlik uygulaması",
+    footerContact: "Contact email: catudy.info@gmail.com",
   },
   en: {
     documentTitle: "Catudy | Gamified Focus Companion",
@@ -236,6 +237,7 @@ const translations = {
     teamTitle: "Catudy project team",
     teamRole: "Project team",
     footerTagline: "Gamified multiplayer focus and productivity application",
+    footerContact: "Contact email: catudy.info@gmail.com",
   },
 };
 
