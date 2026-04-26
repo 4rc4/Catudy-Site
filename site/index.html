@@ -5,23 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
+      data-i18n-content="metaDescription"
       content="Catudy, odak seanslarını pet gelişimi, sosyal lobby ve oyunlaştırma ile sürdürülebilir hale getiren bir üretkenlik uygulamasıdır."
     />
-    <title>Catudy | Gamified Focus Companion</title>
+    <title>Catudy | Oyunlaştırılmış Odak Arkadaşı</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="site-header" data-glass>
-      <a class="brand" href="#top" aria-label="Catudy ana sayfa">
+      <a class="brand" href="#top" aria-label="Catudy ana sayfa" data-i18n-aria="brandHome">
         <img src="./assets/logo-placeholder.svg" alt="" />
         <span>Catudy</span>
       </a>
-      <nav class="nav-links" aria-label="Ana menü">
-        <a href="#problem">Amacımız</a>
-        <a href="#features">Özellikler</a>
-        <a href="#screens">İçerik</a>
-        <a href="#team">Ekip</a>
-      </nav>
+      <div class="header-controls">
+        <nav class="nav-links" aria-label="Ana menü" data-i18n-aria="mainMenu">
+          <a href="#problem" data-i18n="navGoal">Amacımız</a>
+          <a href="#features" data-i18n="navFeatures">Özellikler</a>
+          <a href="#screens" data-i18n="navContent">İçerik</a>
+          <a href="#team" data-i18n="navTeam">Ekip</a>
+        </nav>
+        <div class="language-switcher" aria-label="Dil seçimi" data-i18n-aria="languageSwitcher">
+          <button class="language-button is-active" type="button" data-lang="tr" aria-label="Türkçe" aria-pressed="true" data-i18n-aria="languageTurkish">
+            <span class="flag" aria-hidden="true">🇹🇷</span>
+            <span class="language-code">TR</span>
+          </button>
+          <button class="language-button" type="button" data-lang="en" aria-label="English" aria-pressed="false" data-i18n-aria="languageEnglish">
+            <span class="flag" aria-hidden="true">🇺🇸</span>
+            <span class="language-code">EN</span>
+          </button>
+        </div>
+      </div>
     </header>
 
     <main id="top">
@@ -31,7 +44,7 @@
             <div class="phone-bar"></div>
             <div class="focus-ring">
               <span>42</span>
-              <small>dakika</small>
+              <small data-i18n="heroMinutes">dakika</small>
             </div>
             <div class="pet-buddy">
               <span class="pet-ear pet-ear--left"></span>
@@ -39,35 +52,35 @@
               <span class="pet-face">•ᴗ•</span>
             </div>
             <div class="stat-row">
-              <span>Focus streak</span>
-              <strong>8 gün</strong>
+              <span data-i18n="heroStreakLabel">Odak serisi</span>
+              <strong data-i18n="heroStreakValue">8 gün</strong>
             </div>
           </div>
           <div class="floating-panel panel--one">
-            <strong>Lobby hazır</strong>
-            <span>3 kişi senkron başlıyor</span>
+            <strong data-i18n="heroLobbyReady">Lobby hazır</strong>
+            <span data-i18n="heroLobbyDetail">3 kişi senkron başlıyor</span>
           </div>
           <div class="floating-panel panel--two">
-            <strong>Pet mood</strong>
-            <span>Odakla iyileşiyor</span>
+            <strong data-i18n="heroPetMood">Pet modu</strong>
+            <span data-i18n="heroPetDetail">Odakla iyileşiyor</span>
           </div>
           <div class="motion-lines"></div>
         </div>
 
         <div class="hero-copy">
-          <p class="eyebrow">Oyunlaştırılmış çok oyunculu odak</p>
-          <h1 id="hero-title">
+          <p class="eyebrow" data-i18n="heroEyebrow">Oyunlaştırılmış çok oyunculu odak</p>
+          <h1 id="hero-title" data-i18n="heroTitle">
             Reels sonrası dağılan odağı, yaşayan bir pet ve ekip ritmiyle geri
             kazan.
           </h1>
-          <p class="lead">
+          <p class="lead" data-i18n="heroLead">
             Catudy, klasik timer deneyimini pet bakımı, ödül döngüsü, senkron
             çalışma odaları ve kişisel odak verileriyle daha bağlı kalınabilir
             bir üretkenlik oyununa dönüştürür.
           </p>
           <div class="hero-actions">
-            <a class="button button--primary" href="#features">Catudy'yi keşfet</a>
-            <a class="button button--ghost" href="#team">Ekiple tanış</a>
+            <a class="button button--primary" href="#features" data-i18n="heroPrimaryCta">Catudy'yi keşfet</a>
+            <a class="button button--ghost" href="#team" data-i18n="heroSecondaryCta">Ekiple tanış</a>
           </div>
         </div>
       </section>
@@ -75,9 +88,9 @@
       <section class="problem-section" id="problem" aria-labelledby="problem-title">
         <div class="wrap two-column">
           <div class="section-copy reveal">
-            <p class="section-kicker">Amacımız</p>
-            <h2 id="problem-title">Dağılan odağı tekrar sürdürülebilir bir alışkanlığa çevirmek.</h2>
-            <p>
+            <p class="section-kicker" data-i18n="goalKicker">Amacımız</p>
+            <h2 id="problem-title" data-i18n="goalTitle">Dağılan odağı tekrar sürdürülebilir bir alışkanlığa çevirmek.</h2>
+            <p data-i18n="goalBody">
               Catudy, kısa video tüketimi, bildirimler ve klasik timer
               uygulamalarının motivasyon eksikliğiyle ortaya çıkan odak
               problemlerini oyunlaştırma, pet bağlılığı ve sosyal çalışma
@@ -87,18 +100,18 @@
           <div class="problem-grid">
             <article class="metric-card reveal">
               <span class="metric-card__number">01</span>
-              <h3>Başlamayı kolaylaştırmak</h3>
-              <p>Kullanıcının kategori, süre ve görev seçerek odağa net bir başlangıç yapmasını sağlamak.</p>
+              <h3 data-i18n="goalCardOneTitle">Başlamayı kolaylaştırmak</h3>
+              <p data-i18n="goalCardOneBody">Kullanıcının kategori, süre ve görev seçerek odağa net bir başlangıç yapmasını sağlamak.</p>
             </article>
             <article class="metric-card reveal">
               <span class="metric-card__number">02</span>
-              <h3>Sürdürmeyi oyunlaştırmak</h3>
-              <p>Pet gelişimi, ödüller, kozmetikler ve arkadaşlarla lobby deneyimiyle devamlılık hissi oluşturmak.</p>
+              <h3 data-i18n="goalCardTwoTitle">Sürdürmeyi oyunlaştırmak</h3>
+              <p data-i18n="goalCardTwoBody">Pet gelişimi, ödüller, kozmetikler ve arkadaşlarla lobby deneyimiyle devamlılık hissi oluşturmak.</p>
             </article>
             <article class="metric-card reveal">
               <span class="metric-card__number">03</span>
-              <h3>Gelişimi görünür kılmak</h3>
-              <p>Stats, calendar, manuel kayıtlar ve kategori dağılımlarıyla kullanıcının ilerlemesini anlaşılır hale getirmek.</p>
+              <h3 data-i18n="goalCardThreeTitle">Gelişimi görünür kılmak</h3>
+              <p data-i18n="goalCardThreeBody">Stats, calendar, manuel kayıtlar ve kategori dağılımlarıyla kullanıcının ilerlemesini anlaşılır hale getirmek.</p>
             </article>
           </div>
         </div>
@@ -107,35 +120,35 @@
       <section class="loop-section" aria-labelledby="loop-title">
         <div class="wrap">
           <div class="section-head reveal">
-            <p class="section-kicker">Ayırt Edici Döngü</p>
-            <h2 id="loop-title">Odak sistemi pet sistemiyle birleşir.</h2>
-            <p>
+            <p class="section-kicker" data-i18n="loopKicker">Ayırt Edici Döngü</p>
+            <h2 id="loop-title" data-i18n="loopTitle">Odak sistemi pet sistemiyle birleşir.</h2>
+            <p data-i18n="loopBody">
               Catudy'nin ana farkı, seans tamamlamayı soyut bir sayaçtan çıkarıp
               petin ruh hali, gelişimi ve kozmetikleriyle görünür bir bağa
               çevirmesidir.
             </p>
           </div>
 
-          <div class="focus-loop" aria-label="Catudy odak döngüsü">
+          <div class="focus-loop" aria-label="Catudy odak döngüsü" data-i18n-aria="loopAria">
             <article class="loop-step reveal">
               <span>1</span>
-              <h3>Kategori seç</h3>
-              <p>Ders, iş, okuma veya özel kategoriyle niyet netleşir.</p>
+              <h3 data-i18n="loopStepOneTitle">Kategori seç</h3>
+              <p data-i18n="loopStepOneBody">Ders, iş, okuma veya özel kategoriyle niyet netleşir.</p>
             </article>
             <article class="loop-step reveal">
               <span>2</span>
-              <h3>Seansı başlat</h3>
-              <p>Tek başına ya da lobby ile aynı anda odak sayacı başlar.</p>
+              <h3 data-i18n="loopStepTwoTitle">Seansı başlat</h3>
+              <p data-i18n="loopStepTwoBody">Tek başına ya da lobby ile aynı anda odak sayacı başlar.</p>
             </article>
             <article class="loop-step reveal">
               <span>3</span>
-              <h3>Pet tepki verir</h3>
-              <p>Odaklandıkça pet iyileşir; ihmal edildikçe görsel durum değişir.</p>
+              <h3 data-i18n="loopStepThreeTitle">Pet tepki verir</h3>
+              <p data-i18n="loopStepThreeBody">Odaklandıkça pet iyileşir; ihmal edildikçe görsel durum değişir.</p>
             </article>
             <article class="loop-step reveal">
               <span>4</span>
-              <h3>Ödül ve veri kazan</h3>
-              <p>Altın, kozmetik, istatistik ve daha iyi öneriler aynı döngüye bağlanır.</p>
+              <h3 data-i18n="loopStepFourTitle">Ödül ve veri kazan</h3>
+              <p data-i18n="loopStepFourBody">Altın, kozmetik, istatistik ve daha iyi öneriler aynı döngüye bağlanır.</p>
             </article>
           </div>
         </div>
@@ -144,55 +157,55 @@
       <section class="features" id="features" aria-labelledby="features-title">
         <div class="wrap">
           <div class="section-head reveal">
-            <p class="section-kicker">Özellikler</p>
-            <h2 id="features-title">Catudy'nin içeriği</h2>
+            <p class="section-kicker" data-i18n="featuresKicker">Özellikler</p>
+            <h2 id="features-title" data-i18n="featuresTitle">Catudy'nin içeriği</h2>
           </div>
 
           <div class="feature-grid">
             <article class="feature-card reveal">
               <span class="feature-icon">⏱</span>
-              <h3>Odak Timer</h3>
-              <p>Seans, kategori ve süre bilgisiyle odak kaydı oluşturur; başarı durumunu Catudy verisine çevirir.</p>
+              <h3 data-i18n="featureTimerTitle">Odak Timer</h3>
+              <p data-i18n="featureTimerBody">Seans, kategori ve süre bilgisiyle odak kaydı oluşturur; başarı durumunu Catudy verisine çevirir.</p>
             </article>
             <article class="feature-card reveal feature-card--accent">
               <span class="feature-icon">✦</span>
-              <h3>Pet Companion</h3>
-              <p>Pet açlık, mood ve gelişim durumuyla kullanıcının odak ritmine tepki verir.</p>
+              <h3 data-i18n="featurePetTitle">Pet Companion</h3>
+              <p data-i18n="featurePetBody">Pet açlık, mood ve gelişim durumuyla kullanıcının odak ritmine tepki verir.</p>
             </article>
             <article class="feature-card reveal">
               <span class="feature-icon">◎</span>
-              <h3>Multiplayer Lobby</h3>
-              <p>Arkadaşlar aynı odada ready olur, senkron sayaçla birlikte çalışır ve mola oylaması yapar.</p>
+              <h3 data-i18n="featureLobbyTitle">Multiplayer Lobby</h3>
+              <p data-i18n="featureLobbyBody">Arkadaşlar aynı odada ready olur, senkron sayaçla birlikte çalışır ve mola oylaması yapar.</p>
             </article>
             <article class="feature-card reveal">
               <span class="feature-icon">◆</span>
-              <h3>Ödül & Kozmetik</h3>
-              <p>Geçerli seanslar altın kazandırır; kullanıcı petini ve profilini kozmetiklerle kişiselleştirir.</p>
+              <h3 data-i18n="featureRewardTitle">Ödül & Kozmetik</h3>
+              <p data-i18n="featureRewardBody">Geçerli seanslar altın kazandırır; kullanıcı petini ve profilini kozmetiklerle kişiselleştirir.</p>
             </article>
             <article class="feature-card reveal">
               <span class="feature-icon">▦</span>
-              <h3>Stats</h3>
-              <p>Günlük ve haftalık odak süreleri, kategori dağılımı ve performans trendleri grafiklerle takip edilir.</p>
+              <h3 data-i18n="featureStatsTitle">Stats</h3>
+              <p data-i18n="featureStatsBody">Günlük ve haftalık odak süreleri, kategori dağılımı ve performans trendleri grafiklerle takip edilir.</p>
             </article>
             <article class="feature-card reveal">
               <span class="feature-icon">↗</span>
-              <h3>Adaptif Öneriler</h3>
-              <p>Geçmiş başarı verisine bakarak kullanıcıya daha gerçekçi seans önerileri sunar.</p>
+              <h3 data-i18n="featureAdaptiveTitle">Adaptif Öneriler</h3>
+              <p data-i18n="featureAdaptiveBody">Geçmiş başarı verisine bakarak kullanıcıya daha gerçekçi seans önerileri sunar.</p>
             </article>
             <article class="feature-card reveal">
               <span class="feature-icon">□</span>
-              <h3>Calendar & Manuel Kayıt</h3>
-              <p>Takvim ekranında geçmiş odaklar incelenir; kullanıcı sonradan manuel çalışma kaydı ekleyebilir.</p>
+              <h3 data-i18n="featureCalendarTitle">Calendar & Manuel Kayıt</h3>
+              <p data-i18n="featureCalendarBody">Takvim ekranında geçmiş odaklar incelenir; kullanıcı sonradan manuel çalışma kaydı ekleyebilir.</p>
             </article>
             <article class="feature-card reveal">
               <span class="feature-icon">✓</span>
-              <h3>To-do List</h3>
-              <p>Odak seansı başlamadan önce yapılacak işler belirlenir, seans sonunda tamamlanan görevler görünür olur.</p>
+              <h3 data-i18n="featureTodoTitle">To-do List</h3>
+              <p data-i18n="featureTodoBody">Odak seansı başlamadan önce yapılacak işler belirlenir, seans sonunda tamamlanan görevler görünür olur.</p>
             </article>
             <article class="feature-card reveal">
               <span class="feature-icon">☾</span>
-              <h3>Rahatsız Etmeyin Desteği</h3>
-              <p>Catudy odak öncesinde kullanıcıyı bildirimleri azaltmaya yönlendirir ve dikkati bölen akışları sınırlamayı hatırlatır.</p>
+              <h3 data-i18n="featureDndTitle">Rahatsız Etmeyin Desteği</h3>
+              <p data-i18n="featureDndBody">Catudy odak öncesinde kullanıcıyı bildirimleri azaltmaya yönlendirir ve dikkati bölen akışları sınırlamayı hatırlatır.</p>
             </article>
           </div>
         </div>
@@ -201,45 +214,45 @@
       <section class="screens" id="screens" aria-labelledby="screens-title">
         <div class="wrap">
           <div class="section-head reveal">
-            <p class="section-kicker">İçerik</p>
-            <h2 id="screens-title">Catudy içeriği</h2>
-            <p>Bu bölüm Catudy'deki ana içerik alanlarının ne işe yaradığını gösterir: odak başlatma, pet takibi, birlikte çalışma, istatistik ve takvim akışları.</p>
+            <p class="section-kicker" data-i18n="screensKicker">İçerik</p>
+            <h2 id="screens-title" data-i18n="screensTitle">Catudy içeriği</h2>
+            <p data-i18n="screensBody">Bu bölüm Catudy'deki ana içerik alanlarının ne işe yaradığını gösterir: odak başlatma, pet takibi, birlikte çalışma, istatistik ve takvim akışları.</p>
           </div>
 
           <div class="screen-grid">
             <article class="screen-card reveal">
-              <img src="./assets/app-dashboard.svg" alt="Catudy ana ekran mockup alanı" />
+              <img src="./assets/app-dashboard.svg" alt="Catudy ana ekran mockup alanı" data-i18n-alt="screenHomeAlt" />
               <div>
-                <h3>Ana ekran</h3>
-                <p>Pet özeti, önerilen odak süresi, aktif görevler ve hızlı seans başlatma burada toplanır.</p>
+                <h3 data-i18n="screenHomeTitle">Ana ekran</h3>
+                <p data-i18n="screenHomeBody">Pet özeti, önerilen odak süresi, aktif görevler ve hızlı seans başlatma burada toplanır.</p>
               </div>
             </article>
             <article class="screen-card reveal">
-              <img src="./assets/pet-room.svg" alt="Catudy pet odası mockup alanı" />
+              <img src="./assets/pet-room.svg" alt="Catudy pet odası mockup alanı" data-i18n-alt="screenPetAlt" />
               <div>
-                <h3>Pet odası</h3>
-                <p>Odak davranışının görselleştiği, Catudy'nin en özgün ekranı.</p>
+                <h3 data-i18n="screenPetTitle">Pet odası</h3>
+                <p data-i18n="screenPetBody">Odak davranışının görselleştiği, Catudy'nin en özgün ekranı.</p>
               </div>
             </article>
             <article class="screen-card reveal">
-              <img src="./assets/lobby-sync.svg" alt="Catudy multiplayer lobby mockup alanı" />
+              <img src="./assets/lobby-sync.svg" alt="Catudy multiplayer lobby mockup alanı" data-i18n-alt="screenLobbyAlt" />
               <div>
-                <h3>Lobby sync</h3>
-                <p>Arkadaşlarla eş zamanlı çalışma ve ortak mola oylaması.</p>
+                <h3 data-i18n="screenLobbyTitle">Lobby sync</h3>
+                <p data-i18n="screenLobbyBody">Arkadaşlarla eş zamanlı çalışma ve ortak mola oylaması.</p>
               </div>
             </article>
             <article class="screen-card reveal">
-              <img src="./assets/stats-screen.svg" alt="Catudy stats ekranı mockup alanı" />
+              <img src="./assets/stats-screen.svg" alt="Catudy stats ekranı mockup alanı" data-i18n-alt="screenStatsAlt" />
               <div>
-                <h3>Stats ekranı</h3>
-                <p>Günlük/haftalık odak süresi, kategori dağılımı, streak ve gelişim trendleri grafiklerle gösterilir.</p>
+                <h3 data-i18n="screenStatsTitle">Stats ekranı</h3>
+                <p data-i18n="screenStatsBody">Günlük/haftalık odak süresi, kategori dağılımı, streak ve gelişim trendleri grafiklerle gösterilir.</p>
               </div>
             </article>
             <article class="screen-card reveal">
-              <img src="./assets/calendar-screen.svg" alt="Catudy calendar ekranı mockup alanı" />
+              <img src="./assets/calendar-screen.svg" alt="Catudy calendar ekranı mockup alanı" data-i18n-alt="screenCalendarAlt" />
               <div>
-                <h3>Calendar ekranı</h3>
-                <p>Geçmiş seanslar takvimde incelenir; manuel çalışma kaydı bu ekrandan eklenir ve ayrı işaretlenir.</p>
+                <h3 data-i18n="screenCalendarTitle">Calendar ekranı</h3>
+                <p data-i18n="screenCalendarBody">Geçmiş seanslar takvimde incelenir; manuel çalışma kaydı bu ekrandan eklenir ve ayrı işaretlenir.</p>
               </div>
             </article>
           </div>
@@ -249,14 +262,14 @@
       <section class="team" id="team" aria-labelledby="team-title">
         <div class="wrap">
           <div class="section-head reveal">
-            <p class="section-kicker">Ekip</p>
-            <h2 id="team-title">Catudy proje ekibi</h2>
+            <p class="section-kicker" data-i18n="teamKicker">Ekip</p>
+            <h2 id="team-title" data-i18n="teamTitle">Catudy proje ekibi</h2>
           </div>
           <div class="team-grid">
             <article class="team-card reveal">
               <span class="team-avatar">AU</span>
               <h3>Arda Uygur</h3>
-              <p>Project team</p>
+              <p data-i18n="teamRole">Proje ekibi</p>
               <div class="team-links">
                 <a href="mailto:ardauygur10@gmail.com">ardauygur10@gmail.com</a>
                 <a href="https://www.linkedin.com/in/arda-uygur-76b485332/" target="_blank" rel="noreferrer">LinkedIn</a>
@@ -265,7 +278,7 @@
             <article class="team-card reveal">
               <span class="team-avatar">EK</span>
               <h3>Emre Karacaköylü</h3>
-              <p>Project team</p>
+              <p data-i18n="teamRole">Proje ekibi</p>
               <div class="team-links">
                 <a href="mailto:karacakoyluemre@gmail.com">karacakoyluemre@gmail.com</a>
                 <a href="https://www.linkedin.com/in/emre-karacak%C3%B6yl%C3%BC-b02785285/" target="_blank" rel="noreferrer">LinkedIn</a>
@@ -274,7 +287,7 @@
             <article class="team-card reveal">
               <span class="team-avatar">YA</span>
               <h3>Yusuf Arca Çiçek</h3>
-              <p>Project team</p>
+              <p data-i18n="teamRole">Proje ekibi</p>
               <div class="team-links">
                 <a href="mailto:arcacicek1@gmail.com">arcacicek1@gmail.com</a>
                 <a href="https://www.linkedin.com/in/yusuf-arca-cicek-030688299/" target="_blank" rel="noreferrer">LinkedIn</a>
@@ -291,7 +304,7 @@
           <img src="./assets/logo-placeholder.svg" alt="" />
           <span>Catudy</span>
         </a>
-        <p>Gamified Multiplayer Focus & Productivity Application</p>
+        <p data-i18n="footerTagline">Oyunlaştırılmış çok oyunculu odak ve üretkenlik uygulaması</p>
       </div>
     </footer>
 
