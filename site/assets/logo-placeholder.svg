@@ -1,13 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Catudy logo">
   <defs>
     <linearGradient id="g" x1="14" x2="112" y1="18" y2="112" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#4568ff"/>
-      <stop offset=".52" stop-color="#18a985"/>
-      <stop offset="1" stop-color="#f6c85f"/>
+      <stop stop-color="#bba6f3"/>
+      <stop offset=".52" stop-color="#79c8ff"/>
+      <stop offset="1" stop-color="#ffd16f"/>
+    </linearGradient>
+    <linearGradient id="ear" x1="40" x2="96" y1="16" y2="45" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d9c9ff"/>
+      <stop offset="1" stop-color="#9e82e6"/>
     </linearGradient>
   </defs>
   <rect width="128" height="128" rx="28" fill="#11131a"/>
+  <path fill="url(#ear)" stroke="#4f4599" stroke-linejoin="round" stroke-width="4" d="M46 37 55 18l14 22Z"/>
+  <path fill="url(#ear)" stroke="#4f4599" stroke-linejoin="round" stroke-width="4" d="M73 40 91 18l7 30Z"/>
+  <path fill="#eadfff" opacity=".88" d="M53 34 56 27l6 9Z"/>
+  <path fill="#eadfff" opacity=".88" d="M83 37 90 28l3 13Z"/>
   <path fill="url(#g)" transform="translate(0 6.5) scale(1 .83)" d="M29 72c0-23 15-39 36-39 15 0 27 8 32 20l-17 8c-3-6-8-10-15-10-10 0-17 8-17 21s7 21 17 21c7 0 13-4 16-11l17 8c-6 13-18 21-34 21-21 0-35-16-35-39Z"/>
-  <circle cx="90" cy="36" r="9" fill="#ff674d"/>
-  <circle cx="93" cy="35" r="3" fill="#fff"/>
 </svg>
