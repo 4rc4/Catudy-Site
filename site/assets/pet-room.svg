@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Catudy pet odası yer tutucu görseli">
+  <rect width="640" height="480" fill="#18201f"/>
+  <rect x="58" y="58" width="524" height="354" rx="34" fill="#eef6f3"/>
+  <rect x="96" y="92" width="448" height="58" rx="18" fill="#ffffff"/>
+  <rect x="122" y="113" width="142" height="16" rx="8" fill="#14161d"/>
+  <rect x="402" y="108" width="102" height="26" rx="13" fill="#18a985"/>
+  <ellipse cx="320" cy="312" rx="162" ry="42" fill="#dbe1df"/>
+  <path d="M230 226c0-59 39-96 90-96s90 37 90 96v67c0 34-26 62-90 62s-90-28-90-62v-67Z" fill="#f6c85f"/>
+  <path d="M255 154c-10-34 15-56 42-29" fill="#f6c85f"/>
+  <path d="M385 154c10-34-15-56-42-29" fill="#f6c85f"/>
+  <circle cx="288" cy="233" r="10" fill="#14161d"/>
+  <circle cx="352" cy="233" r="10" fill="#14161d"/>
+  <path d="M300 270c13 13 27 13 40 0" fill="none" stroke="#14161d" stroke-width="10" stroke-linecap="round"/>
+  <rect x="102" y="330" width="106" height="42" rx="12" fill="#ff674d"/>
+  <rect x="432" y="330" width="106" height="42" rx="12" fill="#4568ff"/>
+</svg>

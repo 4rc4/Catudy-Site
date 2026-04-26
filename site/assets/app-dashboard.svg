@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Catudy ana ekran yer tutucu görseli">
+  <rect width="640" height="480" fill="#11131a"/>
+  <rect x="54" y="42" width="532" height="396" rx="30" fill="#f6f7f2"/>
+  <rect x="88" y="78" width="180" height="28" rx="14" fill="#14161d"/>
+  <rect x="88" y="130" width="220" height="220" rx="28" fill="#10211d"/>
+  <circle cx="198" cy="214" r="64" fill="#f6c85f"/>
+  <path d="M148 185c16-34 84-34 100 0" fill="none" stroke="#ff674d" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="176" cy="216" r="8" fill="#14161d"/>
+  <circle cx="220" cy="216" r="8" fill="#14161d"/>
+  <path d="M183 247c12 10 26 10 38 0" fill="none" stroke="#14161d" stroke-width="8" stroke-linecap="round"/>
+  <rect x="336" y="130" width="216" height="84" rx="20" fill="#18a985"/>
+  <rect x="360" y="158" width="88" height="12" rx="6" fill="#10211d" opacity=".9"/>
+  <rect x="360" y="182" width="144" height="12" rx="6" fill="#ffffff" opacity=".7"/>
+  <rect x="336" y="240" width="216" height="110" rx="20" fill="#ffffff"/>
+  <path d="M366 315c26-50 53-7 78-48 24-39 47 6 78-38" fill="none" stroke="#4568ff" stroke-width="12" stroke-linecap="round"/>
+  <rect x="88" y="376" width="464" height="28" rx="14" fill="#dbe1df"/>
+</svg>

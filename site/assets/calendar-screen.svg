@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Catudy calendar ekranı yer tutucu görseli">
+  <rect width="640" height="480" fill="#18201f"/>
+  <rect x="58" y="54" width="524" height="372" rx="30" fill="#eef6f3"/>
+  <rect x="92" y="88" width="170" height="24" rx="12" fill="#14161d"/>
+  <rect x="414" y="82" width="120" height="38" rx="19" fill="#18a985"/>
+  <g fill="#ffffff">
+    <rect x="92" y="148" width="64" height="54" rx="14"/>
+    <rect x="170" y="148" width="64" height="54" rx="14"/>
+    <rect x="248" y="148" width="64" height="54" rx="14"/>
+    <rect x="326" y="148" width="64" height="54" rx="14"/>
+    <rect x="404" y="148" width="64" height="54" rx="14"/>
+    <rect x="482" y="148" width="64" height="54" rx="14"/>
+    <rect x="92" y="220" width="64" height="54" rx="14"/>
+    <rect x="170" y="220" width="64" height="54" rx="14"/>
+    <rect x="248" y="220" width="64" height="54" rx="14"/>
+    <rect x="326" y="220" width="64" height="54" rx="14"/>
+    <rect x="404" y="220" width="64" height="54" rx="14"/>
+    <rect x="482" y="220" width="64" height="54" rx="14"/>
+  </g>
+  <rect x="248" y="220" width="64" height="54" rx="14" fill="#f6c85f"/>
+  <rect x="326" y="220" width="64" height="54" rx="14" fill="#18a985"/>
+  <rect x="92" y="318" width="456" height="60" rx="18" fill="#ffffff"/>
+  <circle cx="126" cy="348" r="12" fill="#ff674d"/>
+  <rect x="152" y="338" width="122" height="12" rx="6" fill="#14161d"/>
+  <rect x="152" y="358" width="196" height="10" rx="5" fill="#606878" opacity=".55"/>
+  <rect x="452" y="336" width="64" height="24" rx="12" fill="#4568ff"/>
+</svg>

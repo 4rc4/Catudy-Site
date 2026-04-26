@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Catudy lobby senkron görsel yer tutucusu">
+  <rect width="640" height="480" fill="#11131a"/>
+  <rect x="60" y="52" width="520" height="376" rx="30" fill="#f6f7f2"/>
+  <circle cx="320" cy="218" r="94" fill="#10211d"/>
+  <circle cx="320" cy="218" r="72" fill="none" stroke="#18a985" stroke-width="18"/>
+  <path d="M320 146a72 72 0 0 1 68 48" fill="none" stroke="#f6c85f" stroke-width="18" stroke-linecap="round"/>
+  <text x="320" y="208" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="800" fill="#fff">25</text>
+  <text x="320" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#9fb1ad">SYNC</text>
+  <rect x="102" y="92" width="132" height="74" rx="20" fill="#ffffff"/>
+  <circle cx="134" cy="129" r="18" fill="#4568ff"/>
+  <rect x="164" y="114" width="48" height="12" rx="6" fill="#14161d"/>
+  <rect x="164" y="138" width="34" height="10" rx="5" fill="#18a985"/>
+  <rect x="406" y="92" width="132" height="74" rx="20" fill="#ffffff"/>
+  <circle cx="438" cy="129" r="18" fill="#ff674d"/>
+  <rect x="468" y="114" width="48" height="12" rx="6" fill="#14161d"/>
+  <rect x="468" y="138" width="34" height="10" rx="5" fill="#18a985"/>
+  <rect x="254" y="346" width="132" height="42" rx="21" fill="#18a985"/>
+  <text x="320" y="373" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="800" fill="#10211d">READY</text>
+</svg>
