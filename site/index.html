@@ -9,12 +9,12 @@
       content="Catudy, odak seanslarını pet gelişimi, sosyal lobby ve oyunlaştırma ile sürdürülebilir hale getiren bir üretkenlik uygulamasıdır."
     />
     <title>Catudy | Oyunlaştırılmış Odak Arkadaşı</title>
-    <link rel="stylesheet" href="./styles.css?v=20260426-3" />
+    <link rel="stylesheet" href="./styles.css?v=20260426-4" />
   </head>
   <body>
     <header class="site-header" data-glass>
       <a class="brand" href="#top" aria-label="Catudy ana sayfa" data-i18n-aria="brandHome">
-        <img src="./assets/logo-placeholder.svg?v=20260426-3" alt="" />
+        <img src="./assets/logo-placeholder.svg?v=20260426-4" alt="" />
         <span>Catudy</span>
       </a>
       <div class="header-controls">
@@ -40,31 +40,35 @@
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-scene" aria-hidden="true">
-          <div class="phone-shell phone-shell--main">
-            <div class="phone-bar"></div>
-            <div class="focus-ring">
-              <span>42</span>
-              <small data-i18n="heroMinutes">dakika</small>
-            </div>
-            <div class="pet-buddy">
-              <span class="pet-ear pet-ear--left"></span>
-              <span class="pet-ear pet-ear--right"></span>
-              <span class="pet-face">•ᴗ•</span>
-            </div>
-            <div class="stat-row">
-              <span data-i18n="heroStreakLabel">Odak serisi</span>
-              <strong data-i18n="heroStreakValue">8 gün</strong>
+          <div class="mascot-stage">
+            <span class="poster-star poster-star--one">✦</span>
+            <span class="poster-star poster-star--two">✦</span>
+            <span class="poster-heart">♡</span>
+            <div class="mascot-glow"></div>
+            <img class="hero-mascot" src="./assets/catudy-mascot.png?v=20260426-4" alt="" />
+            <div class="catudy-badge">
+              <img src="./assets/logo-placeholder.svg?v=20260426-4" alt="" />
+              <span data-i18n="heroBadge">Pet sistemiyle motive eden oyunlaştırılmış odak uygulaması</span>
             </div>
           </div>
           <div class="floating-panel panel--one">
-            <strong data-i18n="heroLobbyReady">Lobby hazır</strong>
-            <span data-i18n="heroLobbyDetail">3 kişi senkron başlıyor</span>
+            <span class="panel-icon">⏱</span>
+            <strong data-i18n="posterTimer">Odak Zamanlayıcı</strong>
           </div>
           <div class="floating-panel panel--two">
-            <strong data-i18n="heroPetMood">Pet modu</strong>
-            <span data-i18n="heroPetDetail">Odakla iyileşiyor</span>
+            <span class="panel-icon panel-icon--mascot">
+              <img src="./assets/catudy-mascot.png?v=20260426-4" alt="" />
+            </span>
+            <strong data-i18n="posterPet">Pet Arkadaşı</strong>
           </div>
-          <div class="motion-lines"></div>
+          <div class="floating-panel panel--three">
+            <span class="panel-icon">◎</span>
+            <strong data-i18n="posterLobby">Çok Oyunculu Lobi</strong>
+          </div>
+          <div class="floating-panel panel--four">
+            <span class="panel-icon">▦</span>
+            <strong data-i18n="posterStats">İstatistik & Takvim</strong>
+          </div>
         </div>
 
         <div class="hero-copy">
@@ -168,7 +172,9 @@
               <p data-i18n="featureTimerBody">Seans, kategori ve süre bilgisiyle odak kaydı oluşturur; başarı durumunu Catudy verisine çevirir.</p>
             </article>
             <article class="feature-card reveal feature-card--accent">
-              <span class="feature-icon">✦</span>
+              <span class="feature-icon feature-icon--image">
+                <img src="./assets/catudy-mascot.png?v=20260426-4" alt="" />
+              </span>
               <h3 data-i18n="featurePetTitle">Pet Companion</h3>
               <p data-i18n="featurePetBody">Pet açlık, mood ve gelişim durumuyla kullanıcının odak ritmine tepki verir.</p>
             </article>
@@ -218,6 +224,15 @@
             <h2 id="screens-title" data-i18n="screensTitle">Catudy içeriği</h2>
             <p data-i18n="screensBody">Bu bölüm Catudy'deki ana içerik alanlarının ne işe yaradığını gösterir: odak başlatma, pet takibi, birlikte çalışma, istatistik ve takvim akışları.</p>
           </div>
+
+          <article class="poster-showcase reveal">
+            <div class="poster-copy">
+              <p class="section-kicker" data-i18n="posterKicker">Tanıtım Afişi</p>
+              <h3 data-i18n="posterShowcaseTitle">Catudy'nin pastel afiş dili siteye taşındı.</h3>
+              <p data-i18n="posterShowcaseBody">Maskot, lavanta tonları, yumuşak kart çizgileri ve kısa video döngüsünden çıkma mesajı Catudy'nin tanıtım yüzünü oluşturur.</p>
+            </div>
+            <img src="./assets/catudy-poster.jpg?v=20260426-4" alt="Catudy tanıtım afişi" data-i18n-alt="posterAlt" />
+          </article>
 
           <div class="screen-grid">
             <article class="screen-card reveal">
@@ -310,13 +325,13 @@
     <footer class="site-footer">
       <div class="wrap footer-inner">
         <a class="brand brand--footer" href="#top">
-          <img src="./assets/logo-placeholder.svg?v=20260426-3" alt="" />
+          <img src="./assets/logo-placeholder.svg?v=20260426-4" alt="" />
           <span>Catudy</span>
         </a>
         <p data-i18n="footerTagline">Oyunlaştırılmış çok oyunculu odak ve üretkenlik uygulaması</p>
       </div>
     </footer>
 
-    <script src="./script.js?v=20260426-3"></script>
+    <script src="./script.js?v=20260426-4"></script>
   </body>
 </html>
