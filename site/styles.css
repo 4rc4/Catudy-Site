@@ -708,6 +708,21 @@ h1 {
   color: rgb(255 255 255 / 76%);
   font-size: 0.94rem;
 }
+.download-card + .download-card {
+  margin-top: 24px;
+}
+
+.download-card--web {
+  background:
+    radial-gradient(circle at 72% 30%, rgb(143 201 255 / 30%), transparent 16rem),
+    rgb(255 250 247 / 78%);
+}
+
+.download-panel--web {
+  background:
+    radial-gradient(circle at 50% 34%, rgb(187 166 243 / 24%), transparent 9rem),
+    linear-gradient(145deg, #151a2d, #25204a);
+}
 
 .two-column {
   display: grid;
