@@ -83,7 +83,8 @@ p {
   transition:
     background 220ms ease,
     border-color 220ms ease,
-    box-shadow 220ms ease;
+    box-shadow 220ms ease,
+    transform 240ms ease;
 }
 
 .site-header.is-scrolled {
@@ -91,6 +92,10 @@ p {
   background: rgb(255 250 247 / 92%);
   color: var(--blue);
   box-shadow: 0 18px 40px rgb(92 75 160 / 14%);
+}
+
+.site-header.is-hidden {
+  transform: translateX(-50%) translateY(calc(-100% - 24px));
 }
 
 .brand {

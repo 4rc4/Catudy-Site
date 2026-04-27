@@ -366,8 +366,21 @@ languageButtons.forEach((button) => {
 
 setLanguage(getSavedLanguage() || "tr");
 
+let lastScrollY = window.scrollY;
+
 const updateHeader = () => {
-  header.classList.toggle("is-scrolled", window.scrollY > 18);
+  const currentScrollY = window.scrollY;
+  const scrollDelta = currentScrollY - lastScrollY;
+
+  header.classList.toggle("is-scrolled", currentScrollY > 18);
+
+  if (currentScrollY < 90 || scrollDelta < -6) {
+    header.classList.remove("is-hidden");
+  } else if (scrollDelta > 8) {
+    header.classList.add("is-hidden");
+  }
+
+  lastScrollY = currentScrollY;
 };
 
 updateHeader();
