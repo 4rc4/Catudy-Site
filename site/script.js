@@ -9,6 +9,7 @@ const translations = {
     languageTurkish: "Türkçe",
     languageEnglish: "English",
     navGoal: "Amacımız",
+    navDownload: "Demo",
     navFeatures: "Özellikler",
     navContent: "İçerik",
     navTeam: "Ekip",
@@ -30,7 +31,14 @@ const translations = {
     heroLead:
       "Catudy, klasik timer deneyimini pet bakımı, ödül döngüsü, senkron çalışma odaları ve kişisel odak verileriyle daha bağlı kalınabilir bir üretkenlik oyununa dönüştürür.",
     heroPrimaryCta: "Catudy'yi keşfet",
+    heroDemoCta: "Android demo indir",
     heroSecondaryCta: "Ekiple tanış",
+    downloadKicker: "Android Demo",
+    downloadTitle: "Catudy APK demosunu dene.",
+    downloadBody:
+      "Release APK dosyasını Android cihazına indirip Catudy'nin mevcut demo sürümünü kurabilirsin.",
+    downloadButton: "APK indir",
+    downloadNote: "Demo build · 52.8 MB · Android",
     goalKicker: "Amacımız",
     goalTitle:
       "Dağılan odağı tekrar sürdürülebilir bir alışkanlığa çevirmek.",
@@ -129,6 +137,7 @@ const translations = {
     languageTurkish: "Turkish",
     languageEnglish: "English",
     navGoal: "Goal",
+    navDownload: "Demo",
     navFeatures: "Features",
     navContent: "Content",
     navTeam: "Team",
@@ -150,7 +159,14 @@ const translations = {
     heroLead:
       "Catudy turns the classic timer experience into a productivity game that is easier to stick with through pet care, rewards, synchronized study rooms, and personal focus data.",
     heroPrimaryCta: "Explore Catudy",
+    heroDemoCta: "Download Android demo",
     heroSecondaryCta: "Meet the team",
+    downloadKicker: "Android Demo",
+    downloadTitle: "Try the Catudy APK demo.",
+    downloadBody:
+      "Download the release APK to your Android device and install the current Catudy demo build.",
+    downloadButton: "Download APK",
+    downloadNote: "Demo build · 52.8 MB · Android",
     goalKicker: "Our Goal",
     goalTitle: "Turn scattered attention back into a sustainable habit.",
     goalBody:
