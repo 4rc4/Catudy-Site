@@ -39,6 +39,13 @@ const translations = {
       "Release APK dosyasını Android cihazına indirip Catudy'nin mevcut demo sürümünü kurabilirsin.",
     downloadButton: "APK indir",
     downloadNote: "Demo build · 52.8 MB · Android",
+    webDemoKicker: "iOS Demo",
+    webDemoTitle: "iOS sürümü henüz hazır değil.",
+    webDemoBody:
+      "Catudy'nin iOS uygulaması şu anda mevcut değil. iPhone, iPad veya bilgisayar üzerinden web sürümünü hemen deneyebilirsin.",
+    webDemoButton: "Web'de dene",
+    webDemoNote: "Tarayıcı sürümü · iOS / Android / Desktop",
+    webDemoPanelText: "iOS yakında",
     goalKicker: "Amacımız",
     goalTitle:
       "Dağılan odağı tekrar sürdürülebilir bir alışkanlığa çevirmek.",
@@ -167,6 +174,13 @@ const translations = {
       "Download the release APK to your Android device and install the current Catudy demo build.",
     downloadButton: "Download APK",
     downloadNote: "Demo build · 52.8 MB · Android",
+    webDemoKicker: "iOS Demo",
+    webDemoTitle: "The iOS version is not ready yet.",
+    webDemoBody:
+      "Catudy's iOS app is not available yet. For now, you can try the web version on iPhone, iPad, Android, or desktop.",
+    webDemoButton: "Try on web",
+    webDemoNote: "Browser version · iOS / Android / Desktop",
+    webDemoPanelText: "iOS coming soon",
     goalKicker: "Our Goal",
     goalTitle: "Turn scattered attention back into a sustainable habit.",
     goalBody:
