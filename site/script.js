@@ -38,7 +38,7 @@ const translations = {
     downloadBody:
       "Release APK dosyasını Android cihazına indirip Catudy'nin mevcut demo sürümünü kurabilirsin.",
     downloadButton: "APK indir",
-    downloadNote: "Demo build · 53.0 MB · Android",
+    downloadNote: "Demo build · 67.9 MB · Android",
     webDemoKicker: "iOS Demo",
     webDemoTitle: "iOS sürümü henüz hazır değil.",
     webDemoBody:
@@ -173,7 +173,7 @@ const translations = {
     downloadBody:
       "Download the release APK to your Android device and install the current Catudy demo build.",
     downloadButton: "Download APK",
-    downloadNote: "Demo build · 53.0 MB · Android",
+    downloadNote: "Demo build · 67.9 MB · Android",
     webDemoKicker: "iOS Demo",
     webDemoTitle: "The iOS version is not ready yet.",
     webDemoBody:
